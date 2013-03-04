@@ -113,7 +113,7 @@ class Isk
   end
    
   def get_img_avgl(id)
-    @server.call("calcImgDiff",db_id,id)
+    @server.call("getImgAvgl",db_id,id)
   end
 
   def get_db_list
